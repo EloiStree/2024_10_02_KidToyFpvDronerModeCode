@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.fpvtoy",                              
+  "displayName": "FPV flying drone",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Allow to drop a fpv drone in your game and fly it. With unrealistic movement. It is just a toy code.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_10_02_KidToyFpvDronerModeCode.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
