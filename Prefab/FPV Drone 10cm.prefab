@@ -183,7 +183,6 @@ GameObject:
   - component: {fileID: 6857026501705688020}
   - component: {fileID: 3736611508787176398}
   - component: {fileID: 1318230702811838800}
-  - component: {fileID: 4060567764220869323}
   m_Layer: 0
   m_Name: FPV Drone 10cm
   m_TagString: Untagged
@@ -252,30 +251,11 @@ MonoBehaviour:
   m_pitchBackForwardPercent: 0
   m_rollLeftRightPercent: 0
   m_throttleFrontPercent: 0
-  m_rotateLeftRightAngle: 180
-  m_pitchBackForwardAngle: 180
-  m_rollLeftRightAngle: 180
-  m_throttleFrontSpeed: 0.5
-  m_throttleBackSpeed: 0.1
---- !u!114 &4060567764220869323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4675195213040705599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5acf5804d3850dc43b897aefd6c2567c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_whatToMove: {fileID: 6857026501705688020}
-  m_speedDownPerSeconds: 0.7
-  m_useGravity: 1
-  m_layerRaycast:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_radiusOfRaycast: 0.02
+  m_rotateLeftRightAngle: 360
+  m_pitchBackForwardAngle: 360
+  m_rollLeftRightAngle: 360
+  m_throttleFrontSpeed: 2
+  m_throttleBackSpeed: 0.5
 --- !u!1 &5500255698601913868
 GameObject:
   m_ObjectHideFlags: 0
