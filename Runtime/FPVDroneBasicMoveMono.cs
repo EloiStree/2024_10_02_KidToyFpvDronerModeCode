@@ -58,7 +58,7 @@ public class FPVDroneBasicMoveMono : MonoBehaviour
         float throttleSpeed= m_throttleFrontPercent > 0 ? m_throttleFrontSpeed : m_throttleBackSpeed;
         float speed = m_throttleFrontPercent * throttleSpeed;
 
-        m_whatToAffect.Rotate(Vector3.up, m_rotateLeftRightAngle *m_rotateLeftRightPercent * Time.deltaTime, Space.Self);
+        m_whatToAffect.Rotate(Vector3.up, -m_rotateLeftRightAngle *m_rotateLeftRightPercent * Time.deltaTime, Space.Self);
         m_whatToAffect.Rotate(Vector3.right, m_pitchBackForwardAngle* m_pitchBackForwardPercent * Time.deltaTime, Space.Self);
         m_whatToAffect.Rotate(Vector3.forward, - m_rollLeftRightAngle* m_rollLeftRightPercent * Time.deltaTime, Space.Self);
         m_whatToAffect.Translate(Vector3.up *speed * Time.deltaTime, Space.Self  );

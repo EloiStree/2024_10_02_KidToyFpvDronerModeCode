@@ -714,8 +714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speedPercent: 0.5
-  m_speedRotationMin: 10
-  m_speedRotationMax: 60
+  m_speedRotationMin: 500
+  m_speedRotationMax: 3200
   m_whatToRotate: {fileID: 7690064170136496188}
   m_axisRotation: {x: 0, y: 1, z: 0}
   m_inverse: 0
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speedPercent: 0.5
-  m_speedRotationMin: 10
-  m_speedRotationMax: 60
+  m_speedRotationMin: 500
+  m_speedRotationMax: 3200
   m_whatToRotate: {fileID: 1874642612668905043}
   m_axisRotation: {x: 0, y: 1, z: 0}
   m_inverse: 0
@@ -768,8 +768,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speedPercent: 0.5
-  m_speedRotationMin: 10
-  m_speedRotationMax: 60
+  m_speedRotationMin: 500
+  m_speedRotationMax: 3200
   m_whatToRotate: {fileID: 7233909376461793980}
   m_axisRotation: {x: 0, y: 1, z: 0}
   m_inverse: 1
@@ -816,8 +816,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speedPercent: 0.5
-  m_speedRotationMin: 10
-  m_speedRotationMax: 60
+  m_speedRotationMin: 500
+  m_speedRotationMax: 3200
   m_whatToRotate: {fileID: 5907843891319705169}
   m_axisRotation: {x: 0, y: 1, z: 0}
   m_inverse: 1
