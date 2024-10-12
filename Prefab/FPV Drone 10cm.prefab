@@ -255,8 +255,8 @@ MonoBehaviour:
   m_rotateLeftRightAngle: 360
   m_pitchBackForwardAngle: 360
   m_rollLeftRightAngle: 360
-  m_throttleFrontSpeed: 7
-  m_throttleBackSpeed: 0.5
+  m_throttleFrontSpeed: 20
+  m_throttleBackSpeed: 2
 --- !u!114 &3747871405615835877
 MonoBehaviour:
   m_ObjectHideFlags: 0
